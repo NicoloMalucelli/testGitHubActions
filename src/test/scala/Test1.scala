@@ -14,4 +14,8 @@ class Test1 {
   @Test
   def testC() =
     assertEquals(true, true)
+
+  @Test
+  def failingTest() =
+    assertEquals(false, true)
 }
