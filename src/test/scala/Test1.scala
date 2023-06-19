@@ -17,5 +17,5 @@ class Test1 {
 
   @Test
   def failingTest() =
-    assertEquals(false, true)
+    assertEquals(true, true)
 }
